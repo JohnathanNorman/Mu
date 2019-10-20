@@ -1,0 +1,15 @@
+{
+    "strategy": "haiyocpp_d8",
+    "consumer": "/home/spoofy/src/chromium/src/out/Asan/d8",
+    "consumerArgs": "--expose-gc",
+    "producer": "/home/spoofy/src/haiyo_cpp/haiyo",
+    "producerArgs": "<outdir> <count>",
+    "crashDir": "/home/spoofy/crashes",
+    "coverage": true,
+    "debugMode": false,
+    "threads": 20,
+    "consumerTimeout": 10,
+    "producerTimeout": 30,
+    "maxRunTime": 10,
+    "interestingStrings": ["stack", "crash"]
+}

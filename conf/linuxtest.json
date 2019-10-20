@@ -1,0 +1,13 @@
+{
+    "consumer": "/home/spoofy/src/testprog/consumer_asan",
+    "consumerArgs": "-jit -jit-crash-on-error -enable-eval",
+    "producer": "/home/spoofy/src/testprog/producer",
+    "producerArgs": "<outdir> <count> ",
+    "crashDir": "/home/spoofy/crashes",
+    "debugMode": false,
+    "threads": 2,
+    "coverage": true,
+    "consumerTimeout": 5,
+    "producerTimeout": 30,
+    "interestingStrings": ["stack", "crash"]
+}

@@ -1,0 +1,15 @@
+{
+    "strategy": "domato_d8",
+    "consumer": "/home/spoofy/src/chromium/src/out/Asan/d8",
+    "consumerArgs": "--expose-gc",
+    "producer": "python",
+    "producerArgs": "/home/spoofy/src/domato/jscript/generator.py --output_dir <outdir> --no_of_files <count> ",
+    "crashDir": "/home/spoofy/crashes",
+    "coverage": true,
+    "debugMode": false,
+    "threads": 20,
+    "consumerTimeout": 10,
+    "producerTimeout": 30,
+    "maxRunTime": 10,
+    "interestingStrings": ["stack", "crash"]
+}

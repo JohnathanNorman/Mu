@@ -1,0 +1,13 @@
+{
+    "consumer": "c:/users/spoof/src/testprog/consumer_asan.exe",
+    "consumerArgs": " ",
+    "producer": "c:/users/spoof/src/testprog/producer.exe",
+    "producerArgs": "<outdir> <count> ",
+    "crashDir": "c:/users/spoof/crashes",
+    "debugMode": false,
+    "coverage": true,
+    "threads": 1,
+    "consumerTimeout": 5,
+    "producerTimeout": 30,
+    "interestingStrings": ["stack", "crash"]
+}
