@@ -92,6 +92,8 @@ You can compare coverage with ..
 ```
 ./makechart domato_d8_fuzzstats.csv haiyocpp_d8_fuzzstats.csv
 ```
+![Chart Output](https://raw.githubusercontent.com/JohnathanNorman/Mu/master/makechart/output.png "Chart")
+
 
 ## Contributions
 Sure why not?
