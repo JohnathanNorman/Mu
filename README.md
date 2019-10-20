@@ -92,6 +92,7 @@ You can compare coverage with ..
 ```
 ./makechart domato_d8_fuzzstats.csv haiyocpp_d8_fuzzstats.csv
 ```
+And as you can see below our difference in coverage
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/JohnathanNorman/Mu/master/makechart/output.png" alt="Chart"/>
